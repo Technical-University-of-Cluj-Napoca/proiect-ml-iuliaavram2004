@@ -1,0 +1,6 @@
+Model,Best Parameters,Accuracy,Precision,Recall,F1 Score,ROC-AUC
+Explainable Boosting Machine,"{'model__interactions': 0, 'model__learning_rate': 0.01, 'model__max_bins': 64}",0.626,0.642570281124498,0.6201550387596899,0.631163708086785,0.6547664808764175
+Support Vector Machine,"{'model__C': 0.1, 'model__gamma': 'scale', 'model__kernel': 'rbf'}",0.614,0.6226415094339622,0.6395348837209303,0.6309751434034416,0.669549618809661
+Logistic Regression,"{'model__C': 0.01, 'model__class_weight': None, 'model__solver': 'lbfgs'}",0.624,0.64,0.6201550387596899,0.6299212598425197,0.6647126657697482
+Naive Bayes,{'model__var_smoothing': 1e-09},0.608,0.6302521008403361,0.5813953488372093,0.6048387096774194,0.646341854058556
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 50, 'model__subsample': 0.8}",0.604,0.625,0.5813953488372093,0.6024096385542169,0.6560477929399705
